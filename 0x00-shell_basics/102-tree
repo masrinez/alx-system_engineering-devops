@@ -1,0 +1,2 @@
+#!/bin/bash
+import os; os.mkdir('welcome'); os.mkdir(os.path.join('welcome', 'to')); os.mkdir(os.path.join('welcome', 'to', 'school'))
