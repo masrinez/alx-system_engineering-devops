@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -p /tmp/u,  files= (find . -maxdepth 1 -type f -name '[[:upper:]]*'), for file in files, do mv "file" /tmp/u, done
