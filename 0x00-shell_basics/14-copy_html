@@ -1,0 +1,2 @@
+#!/bin/bash
+cd .., cp -u -r ./current-working-directory/*.html ./parent-directory/
