@@ -1,0 +1,2 @@
+#!/bin/bash
+Import OS, cwd = os.getcwd(), for file_name in os.listdir(cwd):, if file_name.endswith('~'):, os.remove(os.path.join(cwd, file_name))
