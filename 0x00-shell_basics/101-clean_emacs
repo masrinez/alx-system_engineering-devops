@@ -1,2 +1,2 @@
 #!/bin/bash
-Import OS, cwd = os.getcwd(), for file_name in os.listdir(cwd):, if file_name.endswith('~'):, os.remove(os.path.join(cwd, file_name))
+import os cwd = os.getcwd() files_to_delete = [file_name for file_name in os.listdir(cwd) if file_name.endswith('~')] if len(files_to_delete) == 0: print("No files ending with '~' found in the current directory.") else: for file_name in files_to_delete:  os.remove(os.path.join(cwd, file_name))print(f"{len(files_to_delete)} files ending with '~' have been deleted from the current directory.")
