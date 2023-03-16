@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "cd $(getent passwd $(whoami) | cut -d: -f6)"
+
