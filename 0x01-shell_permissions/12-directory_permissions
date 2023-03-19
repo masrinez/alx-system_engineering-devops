@@ -1,2 +1,2 @@
 #!/bin/bash
-dir_name="my_dir"; [ -d "$dir_name" ]  mkdir -m 751 "$dir_name"  echo "Directory '$dir_name' created with permissions 751."
+dir_name = "my_dir" [ -d "$dir_name" ]  mkdir -m 751 "$dir_name"  echo "Directory '$dir_name' created with permissions 751."
