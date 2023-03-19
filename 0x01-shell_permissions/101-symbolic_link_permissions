@@ -1,0 +1,2 @@
+#!bin/bash
+user_name="vincent", group_name="staff", sudo chown -h "$user_name:$group_name" _hello,  true
