@@ -1,0 +1,2 @@
+#!/bin/bash
+user_name = "vincent", group_name = "staff", sudo chown -R "$user_name : $group_name" .  echo "Owner and group owner changed to '$user_name : $group_name' for all files and directories in the working directory."
