@@ -1,0 +1,2 @@
+#!/bin/bash
+file_name = "hello" group_name = "school" [ -f "$file_name" ] chgrp "$group_name" "$file_name"  echo "Group owner of '$file_name' changed to '$group_name'."
