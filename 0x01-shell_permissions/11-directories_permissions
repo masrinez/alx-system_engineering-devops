@@ -1,2 +1,2 @@
 #!/bin/bash
-dir = $(pwd), find "$dir" -type d -exec chmod a+x {} \;
+dir = $(pwd), find "$dir" -type d -exec chmod a+x {} \
