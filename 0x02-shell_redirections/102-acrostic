@@ -1,5 +1,2 @@
 #!/bin/bash
-acrostic="Acrostic poem
-Constrained writing form
-Retrieve messages."
-echo $(sed 's/\(.\).*/\1/g' <<< "${acrostic}")$'\n'
+acrostic="Acrostic poem Constrained writing form Retrieve messages." echo $(sed 's/\(.\).*/\1/g' <<< "${acrostic}")$'\n'
