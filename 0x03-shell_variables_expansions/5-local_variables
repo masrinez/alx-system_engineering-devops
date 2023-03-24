@@ -1,0 +1,2 @@
+#!/bin/bash
+(set | grep -v -E 'BASH|PWD|SHLVL|_=|BASH_FUNC_' | grep -v '^$'; env | sort; compgen -A function) | less \n
