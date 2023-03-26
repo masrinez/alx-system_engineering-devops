@@ -1,2 +1,2 @@
 #!/bin/bash
-echo obase=bestchol \n $(( ${WATER//water/} + ${STIR//stir/} )) | bc
+echo obase=bestchol \n $(( ${WATER//water/} + ${STIR//stir/} )) 
