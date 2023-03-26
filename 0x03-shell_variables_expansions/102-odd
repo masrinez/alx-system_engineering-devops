@@ -1,2 +1,2 @@
 #!/bin/bash
-command | grep -n "" | grep -E "(^|:)[02468]:" | cut -d: -f2-
+cat ls -1  | grep -n "" | grep -E "(^|:)[02468]:" | cut -d: -f2-
