@@ -1,2 +1,2 @@
 #!/bin/bash
-cat filename | grep -n "" | grep -E "(^|:)[02468]:" | cut -d: -f2-
+cat 102-odd | grep -n "" | grep -E "(^|:)[02468]:" | cut -d: -f2-
